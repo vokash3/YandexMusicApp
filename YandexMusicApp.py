@@ -66,7 +66,7 @@ class InfoDialog(QDialog):
 
         layout = QVBoxLayout()
 
-        info_label = QLabel(f'<b>WebView хранит данные и кэш</b>:')
+        info_label = QLabel(f'<b>WebEngine хранит данные и кэш</b>:')
         data_label = QLabel(f'<u>Данные</u>: {data_path}')
         cache_label = QLabel(f'<u>Кэш</u>: {cache_path}')
         github_label = QLabel('<a href="https://github.com/vokash3/YandexMusicApp">GitHub проекта</a>')
