@@ -1,0 +1,3 @@
+nuitka
+PyQt5
+PyQtWebEngine
