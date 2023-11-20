@@ -21,13 +21,13 @@ ___
 
 _Все команды желательно выполнять в терминале (не в терминалах IDE!), чтобы избежать проблем с зависимостями!_
 
-Требуется наличие **[Python3](https://www.python.org/)** в системе и инструментов разработчика (gcc, XCode CommandLine
-Tools)
+Требуется наличие **[Python3](https://www.python.org/)** в системе и инструментов разработчика (GCC, XCode CommandLine
+Tools и т.п.)
 
 Сборка и работоспособность протестированы:
 
 - на macOS Sonoma 14.1.1 arm64 (Apple Silicon), Python
-  3.11.0, [Homebrew 4.1.20, CLTools 14.3.1.0.1...](https://brew.sh/)
+  3.11.0, [Homebrew 4.1.20](https://brew.sh/), [CLTools 14.3.1](https://developer.apple.com/download/all/?q=Command%20Line%20Tools)
 - на Linux Mint 21.2 x86_64, Python 3.10.12, [GCC 11.4.0](https://losst.pro/ustanovka-gcc-v-ubuntu-16-04)
 
 ## Загрузка проекта
