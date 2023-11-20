@@ -16,10 +16,7 @@ OPTIONS = {
         'CFBundleShortVersionString': '0.1.0',
     },
 
-    'iconfile': 'logo.png',
-    # 'packages': ['PyQt5', 'PyQt5.QtWebEngine', 'PyQt5.QtWebEngineWidgets'],
-    # 'includes': ['sip'],
-    # 'excludes': ['PyQt5.QtDesigner'],
+    'iconfile': 'icon.icns',
 }
 
 setup(

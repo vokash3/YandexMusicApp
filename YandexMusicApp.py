@@ -13,7 +13,7 @@ class YandexMusicApp(QMainWindow):
         super().__init__()
 
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl(login_url))
+        self.browser.setUrl(QUrl(radio_url))
 
         self.setCentralWidget(self.browser)
         self.setMinimumSize(768, 768)
@@ -44,7 +44,7 @@ class YandexMusicApp(QMainWindow):
     def navigate_radio(self):
         self.browser.setUrl(QUrl(radio_url))
 
-    def create_info_button(self):
+    def create_info_button(self) -> QAction:
         info_btn = QAction('Информация', self)
         info_btn.triggered.connect(self.show_info_dialog)
         return info_btn
