@@ -74,10 +74,10 @@ ___
 - Выполнить сборку исполняемого bin файла:
 
     ```bash
-    python3 -m nuitka --enable-plugin=pyqt5 --macos-create-app-bundle --macos-app-icon=icon.icns --standalone --disable-console --output-dir=YandexMusicAppBuild YandexMusicApp.py
+    python3 -m nuitka --enable-plugin=pyqt5 --macos-create-app-bundle --macos-app-icon=icon.icns --output-dir=YandexMusicAppBuild YandexMusicApp.py
     ```
 
-будет создан исполняемый YandexMusicApp.bin файл в поддиректории YandexMusicAppBuild этого проекта.
+будет создан исполняемый YandexMusicApp файл в поддиректории YandexMusicAppBuild этого проекта.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 - Выполнить сборку исполняемого bin файла:
 
     ```bash
-    python3 -m nuitka --enable-plugin=pyqt5 --include-data-files=icon.png=icons/ --output-dir=YandexMusicAppBuild YandexMusicApp.py
+    python3 -m nuitka --enable-plugin=pyqt5 --linux-icon=icon.png --output-dir=YandexMusicAppBuild YandexMusicApp.py
     ```
 
 будет создан исполняемый YandexMusicApp.bin файл в поддиректории YandexMusicAppBuild этого проекта.

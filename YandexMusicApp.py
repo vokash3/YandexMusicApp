@@ -4,7 +4,8 @@ from PyQt5.QtCore import *
 from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import *
 
-login_url = 'https://passport.yandex.ru/auth?origin=music_button-header&retpath=https%3A%2F%2Fmusic.yandex.ru%2Fsettings%3Freqid%3D6724833517003451817471583178390582%26from-passport'
+login_url = 'https://passport.yandex.ru/auth?origin=music_button-header&retpath=https%3A%2F%2Fmusic.yandex.ru' \
+            '%2Fsettings%3Freqid%3D6724833517003451817471583178390582%26from-passport'
 radio_url = 'https://music.yandex.ru/home'
 
 
