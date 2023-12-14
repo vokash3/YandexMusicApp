@@ -1,8 +1,11 @@
 # YandexMusicApp (Unofficial)
 
 ___
+_Linux_
+![screen_linux](resources/static/screens/screen_linux.png)
 
-![screen](resources/static/screens/screen.png)
+_macOS_
+![screen_mac](resources/static/screens/screen_mac.png)
 
 ## О проекте
 
@@ -86,6 +89,14 @@ ___
 **ОДИН ВАРИАНТ**
 
 ### Сборка через [Nuitka](https://github.com/Nuitka/Nuitka)
+
+- Установить инструменты разработки через apt (apt-get):
+    ```bash
+    sudo apt install build-essential
+    ```
+    ```bash
+    sudo apt install python3.10-dev
+    ```
 
 - Выполнить установку дополнительного пакета через apt (apt-get) (актуально на Ubuntu):
     ```bash
